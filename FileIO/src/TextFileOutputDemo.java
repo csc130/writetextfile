@@ -14,6 +14,7 @@ public class TextFileOutputDemo
         }
         catch (FileNotFoundException e)
         {
+        	
             System.out.println ("Error opening the file " +
                     fileName);
             System.exit (0);
